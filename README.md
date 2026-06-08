@@ -2,6 +2,12 @@
 
 This workspace has a small Python CLI for Alpaca paper trading.
 
+## Site
+
+Latest reports:
+
+https://dirtybug.github.io/stocks/
+
 ## Setup
 
 Set your Alpaca API credentials in PowerShell:

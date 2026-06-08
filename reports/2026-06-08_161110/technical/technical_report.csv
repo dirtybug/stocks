@@ -1,0 +1,23 @@
+symbol,company,chart_url,last_close,trend,rsi,macd,candle_patterns,chart_patterns,volume_signal,twenty_day_return_pct,fifty_day_return_pct
+GE,GE Aerospace,technical_charts/GE.html,322.55,"above SMA20, above SMA50, bull trend, RSI overbought, MACD positive",76.71,8.01,bearish engulfing,double bottom confirmed,,7.19,14.06
+GEV,GE Vernova,technical_charts/GEV.html,946.18,"bull trend, MACD negative",37.60,-21.97,doji,"double top confirmed, symmetrical triangle",,-11.78,10.84
+GEHC,GE HealthCare Technologies,technical_charts/GEHC.html,65.03,"above SMA20, bear trend, 20-day breakout, MACD negative",69.71,-0.57,,"double bottom forming, bear flag",,5.41,-6.03
+GOOGL,Alphabet,technical_charts/GOOGL.html,363.32,"above SMA50, bull trend, RSI oversold, MACD positive",27.97,0.61,,"double bottom confirmed, bull flag",,-6.52,32.42
+HON,Honeywell International,technical_charts/HON.html,213.34,"bull trend, MACD positive",45.74,0.03,,double top forming,,-2.67,-4.40
+RTX,RTX Corporation,technical_charts/RTX.html,179.13,"above SMA20, bear trend, MACD negative",55.52,-1.00,,"double bottom forming, descending triangle",,0.28,-5.55
+ORCL,Oracle,technical_charts/ORCL.html,214.49,"above SMA20, above SMA50, bull trend, MACD positive",61.34,13.15,,,,10.66,53.54
+LMT,Lockheed Martin,technical_charts/LMT.html,519.67,"bear trend, MACD negative",43.38,-7.02,,double bottom forming,,1.46,-15.60
+ENB,Enbridge,technical_charts/ENB.html,55.99,"above SMA50, bull trend, MACD positive",47.90,0.44,,double bottom forming,,2.79,2.56
+WM,Waste Management,technical_charts/WM.html,218.88,"above SMA20, bear trend, MACD negative",41.74,-1.77,doji,double bottom forming,,2.20,-2.75
+INTC,Intel,technical_charts/INTC.html,111.71,"above SMA50, bull trend, MACD positive",52.80,4.32,hammer,bull flag,,-13.71,158.95
+TXN,Texas Instruments,technical_charts/TXN.html,294.63,"above SMA50, bull trend, MACD positive",47.45,8.16,hammer,"double bottom forming, bull flag",,-1.04,54.68
+ABBV,AbbVie,technical_charts/ABBV.html,224.22,"above SMA20, above SMA50, bull trend, MACD positive",68.31,3.98,,"double bottom confirmed, ascending triangle",,10.56,7.05
+KO,Coca-Cola,technical_charts/KO.html,79.44,"above SMA50, bull trend, MACD positive",42.65,0.10,,double bottom confirmed,,0.96,5.00
+CAT,Caterpillar,technical_charts/CAT.html,910.13,"above SMA20, above SMA50, bull trend, MACD positive",60.13,18.44,,double bottom forming,,-1.78,30.89
+NSRGY,Nestle,technical_charts/NSRGY.html,,not enough data,,,,,,,
+VOO,Vanguard S&P 500 ETF,technical_charts/VOO.html,685.08,"above SMA50, bull trend, MACD positive",55.04,8.21,,,,0.82,17.54
+VT,Vanguard Total World Stock ETF,technical_charts/VT.html,155.50,"above SMA50, bull trend, MACD positive",55.35,1.61,,,,0.11,15.51
+VYMI,Vanguard International High Dividend Yield ETF,technical_charts/VYMI.html,98.68,"above SMA50, bull trend, MACD positive",47.19,0.21,,"double top forming, ascending triangle",,-1.22,7.91
+URA,Global X Uranium ETF,technical_charts/URA.html,46.62,"bear trend, MACD negative",44.61,-1.26,doji,double top confirmed,,-18.54,-0.01
+GLD,SPDR Gold Shares,technical_charts/GLD.html,397.29,"bear trend, MACD negative",32.54,-6.78,doji,"double top confirmed, descending triangle",,-8.60,-4.19
+SLV,iShares Silver Trust,technical_charts/SLV.html,61.78,"bull trend, RSI oversold, MACD negative",29.81,-1.66,,double top forming,,-20.78,-2.56

@@ -606,6 +606,16 @@ def write_html_report(path, rows):
       color: var(--muted);
       margin: 0 0 20px;
     }}
+    .page-link {{
+      display: inline-block;
+      margin: 0 0 20px;
+      color: #205493;
+      font-weight: 700;
+      text-decoration: none;
+    }}
+    .page-link:hover {{
+      text-decoration: underline;
+    }}
     .formula {{
       background: var(--panel);
       border: 1px solid var(--line);
@@ -694,6 +704,7 @@ def write_html_report(path, rows):
   <main>
     <h1>Favorite Stock Valuation Report</h1>
     <p class="meta">Generated from favorite_stocks.csv using Alpaca prices and SEC company facts.</p>
+    <a class="page-link" href="https://dirtybug.github.io/stocks/" target="_blank" rel="noopener">GitHub Page</a>
     <div class="formula">model value per share = sector P/S * annual revenue / shares outstanding</div>
     <div class="formula">Sector P/S: technology 7, software 8, industrial 4, defense 2, energy 2, consumer 5, healthcare 4</div>
     <div class="controls" aria-label="Column visibility controls">

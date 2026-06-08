@@ -824,6 +824,16 @@ def write_html(path, rows):
       color: var(--muted);
       margin: 0 0 20px;
     }}
+    .page-link {{
+      display: inline-block;
+      margin: 0 0 20px;
+      color: #205493;
+      font-weight: 700;
+      text-decoration: none;
+    }}
+    .page-link:hover {{
+      text-decoration: underline;
+    }}
     table {{
       width: 100%;
       border-collapse: collapse;
@@ -879,6 +889,7 @@ def write_html(path, rows):
   <main>
     <h1>Technical Analysis Report</h1>
     <p>Daily-bar pattern scan using Alpaca market data. Signals are mechanical, not trading advice.</p>
+    <a class="page-link" href="https://dirtybug.github.io/stocks/" target="_blank" rel="noopener">GitHub Page</a>
     <table>
       <thead>
         <tr>

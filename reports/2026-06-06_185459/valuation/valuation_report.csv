@@ -1,0 +1,23 @@
+symbol,company,sector,ps_multiplier,rating,current_price,model_value,discount_pct,price_to_model,dividend_per_share,dividend_yield_pct,roi_pct,fcf_margin_pct,debt_score,debt_to_equity,backlog,book_to_bill,revenue,shares_outstanding,currency,quote_type,notes,status
+GE,GE Aerospace,industrial,4,GROWTH PREMIUM,328.13,174.02,-46.97,1.89,3.81,1.16,48.20,15.84,50,1.25,211299000000,4.61,45855000000,1054000000,USD,equity_or_etf,GE aerospace business,ok
+GEV,GE Vernova,energy,2,GROWTH PREMIUM,933.11,279.91,-70.00,3.33,1.01,0.11,35.08,9.75,95,0.00,163276000000,4.29,38068000000,272000000,USD,equity_or_etf,GE energy spin-off,ok
+GEHC,GE HealthCare Technologies,healthcare,4,VALUE TRAP RISK,64.66,180.53,179.21,0.36,0.14,0.22,19.54,7.30,70,0.95,15828000000,0.77,20625000000,457000000,USD,equity_or_etf,GE healthcare spin-off,ok
+GOOGL,Alphabet,technology,7,,366.94,230.42,-37.21,1.59,0.82,0.22,27.61,18.19,95,0.17,467600000000,1.16,402836000000,12238000000,USD,equity_or_etf,Google parent company; Class A shares,ok
+HON,Honeywell International,industrial,4,,213.98,234.60,9.64,0.91,4.66,2.18,35.11,14.48,30,2.70,38262000000,1.02,37442000000,638400000,USD,equity_or_etf,,ok
+RTX,RTX Corporation,defense,2,GROWTH PREMIUM,181.02,129.86,-28.26,1.39,2.62,1.45,10.16,8.96,70,0.62,271000000000,3.06,88603000000,1364600000,USD,equity_or_etf,,ok
+ORCL,Oracle,software,8,GROWTH PREMIUM,212.31,157.58,-25.78,1.35,1.63,0.77,32.32,-0.69,95,0.19,552600000000,9.63,57399000000,2914000000,USD,equity_or_etf,,ok
+LMT,Lockheed Martin,defense,2,BUY CANDIDATE,523.91,649.49,23.97,0.81,13.55,2.59,66.99,9.20,30,2.76,186400000000,2.48,75048000000,231100000,USD,equity_or_etf,,ok
+ENB,Enbridge,energy,2,VALUE TRAP RISK,56.30,59.59,5.85,0.94,3.76,6.67,11.53,5.06,50,1.63,57200000000,0.88,65194000000,2188000000,USD,equity_or_etf,,ok
+WM,Waste Management,industrial,4,VALUE TRAP RISK,220.21,249.30,13.21,0.88,3.30,1.50,27.02,11.17,95,0.06,764000000,0.03,25204000000,404400000,USD,equity_or_etf,,ok
+INTC,Intel,technology,7,OVERVALUED,97.50,72.79,-25.35,1.34,0.00,0.00,-0.24,-9.36,85,0.40,498000000,0.01,52853000000,5083000000,USD,equity_or_etf,,ok
+TXN,Texas Instruments,technology,7,,284.97,135.42,-52.48,2.10,5.47,1.92,29.81,14.72,70,0.84,,,17682000000,914000000,USD,equity_or_etf,TI,ok
+ABBV,AbbVie,healthcare,4,,227.09,137.90,-39.27,1.65,6.57,2.89,-63.49,29.13,0,-9.69,,,61160000000,1774000000,USD,equity_or_etf,,ok
+KO,Coca-Cola,consumer,5,,79.50,55.56,-30.11,1.43,2.04,2.56,38.97,11.05,50,1.09,,,47941000000,4314000000,USD,equity_or_etf,,ok
+CAT,Caterpillar,industrial,4,OVERVALUED,903.99,580.41,-35.79,1.56,5.90,0.65,47.61,13.19,50,1.94,37100000000,0.55,67589000000,465800000,USD,equity_or_etf,,ok
+NSRGY,Nestle,consumer,,,,,,,,,,,,,,,,,,,US ADR / OTC symbol; may not be tradeable on every broker,No SEC CIK mapping found
+VOO,Vanguard S&P 500 ETF,,,,677.91,,,,,,,,,,,,,,USD,fund_or_commodity,Tracks the S&P 500,"model not applicable to ETFs, funds, or commodity trusts"
+VT,Vanguard Total World Stock ETF,,,,153.69,,,,,,,,,,,,,,USD,fund_or_commodity,Broad global equity ETF,"model not applicable to ETFs, funds, or commodity trusts"
+VYMI,Vanguard International High Dividend Yield ETF,,,,98.03,,,,,,,,,,,,,,USD,fund_or_commodity,International high-dividend ETF,"model not applicable to ETFs, funds, or commodity trusts"
+URA,Global X Uranium ETF,,,,45.30,,,,,,,,,,,,,,USD,fund_or_commodity,Uranium and nuclear components ETF,"model not applicable to ETFs, funds, or commodity trusts"
+GLD,SPDR Gold Shares,,,,397.30,,,,,,,,,,,,,,USD,fund_or_commodity,Gold ETF,"model not applicable to ETFs, funds, or commodity trusts"
+SLV,iShares Silver Trust,,,,61.56,,,,,,,,,,,,,,USD,fund_or_commodity,Silver ETF,"model not applicable to ETFs, funds, or commodity trusts"

@@ -1,0 +1,23 @@
+symbol,company,sector,notes
+GE,GE Aerospace,industrial,"GE aerospace business"
+GEV,GE Vernova,energy,"GE energy spin-off"
+GEHC,GE HealthCare Technologies,healthcare,"GE healthcare spin-off"
+GOOGL,Alphabet,technology,"Google parent company; Class A shares"
+HON,Honeywell International,industrial,
+RTX,RTX Corporation,defense,
+ORCL,Oracle,software,
+LMT,Lockheed Martin,defense,
+ENB,Enbridge,energy,
+WM,Waste Management,industrial,
+INTC,Intel,technology,
+TXN,Texas Instruments,technology,"TI"
+ABBV,AbbVie,healthcare,
+KO,Coca-Cola,consumer,
+CAT,Caterpillar,industrial,
+NSRGY,Nestle,consumer,"US ADR / OTC symbol; may not be tradeable on every broker"
+VOO,Vanguard S&P 500 ETF,,"Tracks the S&P 500"
+VT,Vanguard Total World Stock ETF,,"Broad global equity ETF"
+VYMI,Vanguard International High Dividend Yield ETF,,"International high-dividend ETF"
+URA,Global X Uranium ETF,,"Uranium and nuclear components ETF"
+GLD,SPDR Gold Shares,,"Gold ETF"
+SLV,iShares Silver Trust,,"Silver ETF"

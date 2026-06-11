@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technical Analysis Report</title>
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #607080;
+      --line: #d9e1e8;
+      --panel: #f6f8fa;
+      --positive: #0f7a3b;
+      --negative: #b42318;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: white;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 20px 48px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+    }
+    p {
+      color: var(--muted);
+      margin: 0 0 20px;
+    }
+    .page-link {
+      display: inline-block;
+      margin: 0 0 20px;
+      color: #205493;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .page-link:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 9px;
+      vertical-align: top;
+    }
+    th {
+      background: var(--panel);
+      text-align: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #415160;
+      letter-spacing: 0;
+    }
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    .positive {
+      color: var(--positive);
+      font-weight: 700;
+    }
+    .negative {
+      color: var(--negative);
+      font-weight: 700;
+    }
+    .neutral {
+      color: var(--ink);
+    }
+    .chart-link {
+      color: #205493;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    @media (max-width: 820px) {
+      main {
+        padding: 18px 10px 32px;
+      }
+      table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Technical Analysis Report</h1>
+    <p>Daily-bar pattern scan using Alpaca market data. Signals are mechanical, not trading advice.</p>
+    <a class="page-link" href="https://dirtybug.github.io/stocks/" target="_blank" rel="noopener">GitHub Page</a>
+    <table>
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Graph</th>
+          <th>Company</th>
+          <th class="num">Close</th>
+          <th>Trend / Signal</th>
+          <th class="num">RSI</th>
+          <th class="num">MACD</th>
+          <th>Candle Pattern</th>
+          <th>Chart Pattern</th>
+          <th>Volume</th>
+          <th class="num">20D Return</th>
+          <th class="num">50D Return</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>GE</td><td><a class="chart-link" href="technical_charts/GE.html">Graph</a></td><td>GE Aerospace</td><td class="num">318.61</td><td class="positive">above SMA20, above SMA50, bull trend, MACD positive</td><td class="num">62.48</td><td class="num">7.78</td><td></td><td class="positive">double bottom confirmed, bull flag</td><td></td><td class="num">8.08%</td><td class="num">12.28%</td></tr><tr><td>GEV</td><td><a class="chart-link" href="technical_charts/GEV.html">Graph</a></td><td>GE Vernova</td><td class="num">867.01</td><td class="negative">bear trend, 20-day breakdown, RSI oversold, MACD negative</td><td class="num">24.21</td><td class="num">-32.16</td><td></td><td class="negative">double top confirmed, symmetrical triangle</td><td>volume spike</td><td class="num">-18.35%</td><td class="num">-0.67%</td></tr><tr><td>GEHC</td><td><a class="chart-link" href="technical_charts/GEHC.html">Graph</a></td><td>GE HealthCare Technologies</td><td class="num">63.76</td><td class="positive">above SMA20, bear trend, MACD negative</td><td class="num">47.33</td><td class="num">-0.33</td><td></td><td class="positive">double bottom forming</td><td></td><td class="num">3.02%</td><td class="num">-10.38%</td></tr><tr><td>GOOGL</td><td><a class="chart-link" href="technical_charts/GOOGL.html">Graph</a></td><td>Alphabet</td><td class="num">356.33</td><td class="negative">bull trend, 20-day breakdown, RSI oversold, MACD negative</td><td class="num">28.04</td><td class="num">-1.52</td><td></td><td class="negative"></td><td></td><td class="num">-11.50%</td><td class="num">23.95%</td></tr><tr><td>HON</td><td><a class="chart-link" href="technical_charts/HON.html">Graph</a></td><td>Honeywell International</td><td class="num">205.79</td><td class="negative">bull trend, 20-day breakdown, MACD negative</td><td class="num">40.62</td><td class="num">-1.85</td><td></td><td class="negative">double top confirmed</td><td></td><td class="num">-5.59%</td><td class="num">-8.95%</td></tr><tr><td>RTX</td><td><a class="chart-link" href="technical_charts/RTX.html">Graph</a></td><td>RTX Corporation</td><td class="num">177.34</td><td class="negative">above SMA20, bear trend, MACD negative</td><td class="num">53.68</td><td class="num">-0.65</td><td></td><td class="negative">double bottom forming, descending triangle</td><td></td><td class="num">-0.44%</td><td class="num">-8.02%</td></tr><tr><td>ORCL</td><td><a class="chart-link" href="technical_charts/ORCL.html">Graph</a></td><td>Oracle</td><td class="num">201.99</td><td class="positive">above SMA50, bull trend, MACD positive</td><td class="num">55.73</td><td class="num">9.37</td><td></td><td class="positive"></td><td>volume spike</td><td class="num">6.45%</td><td class="num">37.29%</td></tr><tr><td>LMT</td><td><a class="chart-link" href="technical_charts/LMT.html">Graph</a></td><td>Lockheed Martin</td><td class="num">524.90</td><td class="positive">above SMA20, bear trend, MACD negative</td><td class="num">51.56</td><td class="num">-5.28</td><td></td><td class="positive">double bottom forming</td><td></td><td class="num">0.93%</td><td class="num">-13.11%</td></tr><tr><td>ENB</td><td><a class="chart-link" href="technical_charts/ENB.html">Graph</a></td><td>Enbridge</td><td class="num">56.46</td><td class="negative">above SMA20, above SMA50, bull trend, MACD positive</td><td class="num">46.75</td><td class="num">0.35</td><td></td><td class="negative">double top forming</td><td></td><td class="num">2.25%</td><td class="num">4.29%</td></tr><tr><td>WM</td><td><a class="chart-link" href="technical_charts/WM.html">Graph</a></td><td>Waste Management</td><td class="num">224.33</td><td class="positive">above SMA20, above SMA50, bear trend, 20-day breakout, MACD negative</td><td class="num">57.50</td><td class="num">-0.86</td><td></td><td class="positive">double bottom forming</td><td></td><td class="num">3.64%</td><td class="num">-2.39%</td></tr><tr><td>INTC</td><td><a class="chart-link" href="technical_charts/INTC.html">Graph</a></td><td>Intel</td><td class="num">106.99</td><td class="positive">above SMA50, bull trend, MACD positive</td><td class="num">38.91</td><td class="num">3.07</td><td></td><td class="positive"></td><td>volume spike</td><td class="num">-11.04%</td><td class="num">142.44%</td></tr><tr><td>TXN</td><td><a class="chart-link" href="technical_charts/TXN.html">Graph</a></td><td>Texas Instruments</td><td class="num">282.07</td><td class="negative">above SMA50, bull trend, 20-day breakdown, MACD positive</td><td class="num">40.29</td><td class="num">4.54</td><td></td><td class="negative"></td><td></td><td class="num">-7.92%</td><td class="num">45.32%</td></tr><tr><td>ABBV</td><td><a class="chart-link" href="technical_charts/ABBV.html">Graph</a></td><td>AbbVie</td><td class="num">224.91</td><td class="positive">above SMA20, above SMA50, bull trend, MACD positive</td><td class="num">66.40</td><td class="num">4.27</td><td></td><td class="positive">double bottom confirmed</td><td></td><td class="num">7.87%</td><td class="num">3.43%</td></tr><tr><td>KO</td><td><a class="chart-link" href="technical_charts/KO.html">Graph</a></td><td>Coca-Cola</td><td class="num">83.59</td><td class="positive">above SMA20, above SMA50, bull trend, 20-day breakout, MACD positive</td><td class="num">56.75</td><td class="num">0.55</td><td></td><td class="positive">double bottom confirmed</td><td>volume spike</td><td class="num">4.14%</td><td class="num">9.90%</td></tr><tr><td>CAT</td><td><a class="chart-link" href="technical_charts/CAT.html">Graph</a></td><td>Caterpillar</td><td class="num">856.22</td><td class="negative">above SMA50, bull trend, 20-day breakdown, MACD positive</td><td class="num">47.02</td><td class="num">13.12</td><td></td><td class="negative">double top forming, bull flag</td><td></td><td class="num">-5.10%</td><td class="num">20.85%</td></tr><tr><td>NSRGY</td><td><a class="chart-link" href="technical_charts/NSRGY.html">Graph</a></td><td>Nestle</td><td class="num"></td><td class="neutral">not enough data</td><td class="num"></td><td class="num"></td><td></td><td class="neutral"></td><td></td><td class="num"></td><td class="num"></td></tr><tr><td>VOO</td><td><a class="chart-link" href="technical_charts/VOO.html">Graph</a></td><td>Vanguard S&amp;P 500 ETF</td><td class="num">667.09</td><td class="negative">above SMA50, bull trend, 20-day breakdown, MACD positive</td><td class="num">37.52</td><td class="num">4.48</td><td></td><td class="negative"></td><td></td><td class="num">-2.26%</td><td class="num">11.62%</td></tr><tr><td>VT</td><td><a class="chart-link" href="technical_charts/VT.html">Graph</a></td><td>Vanguard Total World Stock ETF</td><td class="num">151.92</td><td class="negative">above SMA50, bull trend, 20-day breakdown, MACD positive</td><td class="num">41.11</td><td class="num">0.84</td><td></td><td class="negative"></td><td></td><td class="num">-2.25%</td><td class="num">9.84%</td></tr><tr><td>VYMI</td><td><a class="chart-link" href="technical_charts/VYMI.html">Graph</a></td><td>Vanguard International High Dividend Yield ETF</td><td class="num">98.03</td><td class="negative">bull trend, 20-day breakdown, MACD positive</td><td class="num">39.02</td><td class="num">0.01</td><td></td><td class="negative">double top forming, ascending triangle</td><td></td><td class="num">-1.57%</td><td class="num">3.98%</td></tr><tr><td>URA</td><td><a class="chart-link" href="technical_charts/URA.html">Graph</a></td><td>Global X Uranium ETF</td><td class="num">42.38</td><td class="negative">bear trend, 20-day breakdown, MACD negative</td><td class="num">35.50</td><td class="num">-2.01</td><td></td><td class="negative">double top confirmed</td><td></td><td class="num">-20.49%</td><td class="num">-12.46%</td></tr><tr><td>GLD</td><td><a class="chart-link" href="technical_charts/GLD.html">Graph</a></td><td>SPDR Gold Shares</td><td class="num">374.66</td><td class="negative">bear trend, 20-day breakdown, RSI oversold, MACD negative</td><td class="num">19.59</td><td class="num">-9.68</td><td></td><td class="negative">double top confirmed, descending triangle</td><td>volume spike</td><td class="num">-12.97%</td><td class="num">-12.92%</td></tr><tr><td>SLV</td><td><a class="chart-link" href="technical_charts/SLV.html">Graph</a></td><td>iShares Silver Trust</td><td class="num">57.65</td><td class="negative">bear trend, 20-day breakdown, RSI oversold, MACD negative</td><td class="num">20.90</td><td class="num">-2.59</td><td></td><td class="negative">double top confirmed</td><td>volume spike</td><td class="num">-27.35%</td><td class="num">-15.41%</td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
